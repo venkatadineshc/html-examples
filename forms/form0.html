@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form0</title>
+    </head>
+    <body>
+        <form name="form0" action="servlet0" method="post">
+            <table cellspacing="5px" cellpading="5px" align="center" >
+                <caption>REGISTRATION FORM</caption>
+                <tr>
+                    <td>
+                        <label for="fn">First Name</label><br>
+                        <input type="text" id="fn" name="fname" placeholder="First Name">
+                    </td>
+                    <td>
+                        <label for="ln">Last Name</label><br>
+                        <input type="text" id="ln" name="lname" placeholder="Last Name">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="bd">Birthday</label><br>
+                        <input type="date" id="bd" name="bday">
+                    </td>
+                    <td>
+                        <label for="g">Gender</label><br>
+                        <input type="radio" value="male" id="g" name="gm">male
+                        <input type="radio" value="female" id="g" name="gm">female
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="EID">Email</label><br>
+                        <input type="email" id="EID" name="EMID" placeholder="Enter EmailID">
+                    </td>
+                    <td>
+                        <label for="pn">phone Number</label><br>
+                        <input type="text" id="pn" name="pnum" placeholder="Phone Number">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                    <label for="sub">Subject</label>
+                    <select>
+                    <option value="select" id="sub" name="Subject1">choose option</option>
+                    <option value="Telugu" id="sub" name="Subject2">Telugu</option>
+                    <option value="English" id="sub" name="subject3">English</option>
+                    <option value="Hindi" id="sub" name="subject4">Hindi</option>
+                    <option value="Maths" id="sub" name="subject5">Maths</option>
+                    </select>
+                    </td>
+                <tr>
+                    <td>
+                        <input type="submit" value="submit">
+                    </td>
+                </tr>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
